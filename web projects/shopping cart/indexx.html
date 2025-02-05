@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Shopping Cart</h1>
+        
+        <!-- Products List -->
+        <div class="products">
+            <div class="product">
+                <h3>Item 1</h3>
+                <p>Price: ₹500</p>
+                <button onclick="addToCart('Item 1', 500)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Item 2</h3>
+                <p>Price: ₹700</p>
+                <button onclick="addToCart('Item 2', 700)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Item 3</h3>
+                <p>Price: ₹300</p>
+                <button onclick="addToCart('Item 3', 300)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Shopping Cart Section -->
+        <h2>Your Cart 🛍️</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems"></tbody>
+        </table>
+        
+        <h3>Total Price: ₹<span id="totalPrice">0</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

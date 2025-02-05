@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📰 Latest News</h1>
+        
+        <div class="categories">
+            <button onclick="fetchNews('general')">General</button>
+            <button onclick="fetchNews('business')">Business</button>
+            <button onclick="fetchNews('technology')">Technology</button>
+            <button onclick="fetchNews('sports')">Sports</button>
+        </div>
+
+        <div id="news-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* style.css */
+/* ... (previous CSS) */
+
+/* Center the property and agent lists */
+.property-list, .agent-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (if needed) */
+}
+
+.property, .agent {
+    /* ... other styles */
+    margin: 1rem; /* Adjust margin as needed */
+    text-align: center; /* Center text within property/agent */
+}
+
+/* If you want the *content* within the property/agent to be centered
+   even if the property/agent itself takes up the full width, you can
+   apply these styles to the *inside* elements: */
+
+.property img, .property h3, .property p, .property a,
+.agent img, .agent h3, .agent p, .agent a {
+    text-align: center;   /* Center text content */
+    margin: 0 auto;       /* Center block elements horizontally */
+    display: block;      /* Make sure elements are block-level */
+    max-width: 100%;      /* Prevent images from overflowing */
+
+}
+
+.property img, .agent img {
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+/* Responsive adjustments (if necessary) */
+@media (max-width: 768px) {
+    .property, .agent {
+        width: 45%; /* Adjust width for responsiveness */
+    }
+}
+
+@media (max-width: 500px) {
+    .property, .agent {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}

@@ -1,0 +1,167 @@
+/* Reset Styles */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+/* Global Styles */  
+body {  
+    font-family: Arial, sans-serif;  
+    font-size: 16px;  
+    color: #333;  
+}  
+
+a {  
+    text-decoration: none;  
+    color: #007bff;  
+}  
+
+/* Header Styles */  
+header {  
+    background-color: #007bff;  
+    padding: 20px;  
+}  
+
+nav {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.logo a {  
+    font-size: 24px;  
+    font-weight: bold;  
+    color: #fff;  
+}  
+
+nav ul {  
+    display: flex;  
+    list-style-type: none;  
+}  
+
+nav ul li {  
+    margin-left: 20px;  
+}  
+
+nav ul li a {  
+    color: #fff;  
+    font-weight: bold;  
+}  
+
+/* Hero Section Styles */  
+.hero {  
+    background-image: url('hero-bg.jpg');  
+    background-size: cover;  
+    background-position: center;  
+    padding: 100px 20px;  
+    text-align: center;  
+    color: #fff;  
+}  
+
+.hero h1 {  
+    font-size: 36px;  
+    margin-bottom: 20px;  
+}  
+
+.hero p {  
+    font-size: 18px;  
+    margin-bottom: 40px;  
+}  
+
+.cta {  
+    display: inline-block;  
+    background-color: #007bff;  
+    color: #fff;  
+    padding: 12px 24px;  
+    border-radius: 4px;  
+    font-weight: bold;  
+}  
+
+/* Destinations Section Styles */  
+.destinations {  
+    padding: 60px 20px;  
+}  
+
+.destinations h2 {  
+    font-size: 28px;  
+    text-align: center;  
+    margin-bottom: 40px;  
+}  
+
+.destination-cards {  
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+    gap: 30px;  
+}  
+
+.destination-card {  
+    flex-basis: 300px;  
+    text-align: center;  
+}  
+
+.destination-card img {  
+    width: 100%;  
+    height: 200px;  
+    object-fit: cover;  
+    border-radius: 4px;  
+    margin-bottom: 20px;  
+}  
+
+.destination-card h3 {  
+    font-size: 20px;  
+    margin-bottom: 10px;  
+}  
+
+.destination-card p {  
+    font-size: 16px;  
+    margin-bottom: 20px;  
+}  
+
+/* Testimonials Section Styles */  
+.testimonials {  
+    background-color: #f5f5f5;  
+    padding: 60px 20px;  
+}  
+
+.testimonials h2 {  
+    font-size: 28px;  
+    text-align: center;  
+    margin-bottom: 40px;  
+}  
+
+.testimonial-cards {  
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+    gap: 30px;  
+}  
+
+.testimonial-card {  
+    flex-basis: 300px;  
+    background-color: #fff;  
+    padding: 30px;  
+    border-radius: 4px;  
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);  
+}  
+
+.testimonial-card blockquote {  
+    font-size: 16px;  
+    font-style: italic;  
+    margin-bottom: 20px;  
+}  
+
+.testimonial-card cite {  
+    font-size: 14px;  
+    font-weight: bold;  
+}  
+
+/* Footer Styles */  
+footer {  
+    background-color: #007bff;  
+    color: #fff;  
+    text-align: center;  
+    padding: 20px;  
+    font-size: 14px;  
+}
